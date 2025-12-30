@@ -31,14 +31,20 @@ A escolha deste modelo reflete o estado da arte da tecnologia em 2025:
 
 ---
 
+## 📋 Diferencial:
+
+Para garantir maior coerência e qualidade nas mensagens de marketing geradas pelo agente Groq, foi implementado um sistema RAG (Retrieval-Augmented Generation). Com base no perfil do investidor, o sistema consulta um catálogo de ativos fictícios (gerados pelo Gemini) para fornecer recomendações específicas. Essa abordagem torna as respostas mais assertivas e seguras, evitando significativamente o risco de alucinações da IA.
+
+
 ## 🛠️ Tecnologias e Ferramentas
 
 1. **Linguagem**: Python
-2. **API de IA**: Groq Cloud
+2. **API de IA**: Groq Cloud, Google AI
 3. **Bibliotecas Principais**:
     3.1 **pandas** (Manipulação de dados)
     3.2 **groq** (Cliente oficial para interação com a LLM)
-
+    3.3 **langchain** (Permitir arquitetar o sistema RAG)
+    3.4 **FAISS** (Banco vetorial que roda localmente)
 
 ---
 
